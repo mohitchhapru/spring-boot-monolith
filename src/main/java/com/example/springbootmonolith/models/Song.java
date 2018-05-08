@@ -5,19 +5,16 @@ import javax.persistence.*;
 
 @Data
 @AllArgsConstructor @NoArgsConstructor @Getter @Setter
-@Entity @Table(name = "USERS")
-public class User {
+@Entity @Table(name = "SONGS")
+public class Song {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "USER_NAME")
-    private String userName;
+    @Column(name = "TITLE")
+    private String title;
 
-    @Column(name = "FIRST_NAME")
-    private String firstName;
-
-    @Column(name = "LAST_NAME")
-    private String lastName;
+    @Column(name = "LENGTH")
+    private String length;
 }

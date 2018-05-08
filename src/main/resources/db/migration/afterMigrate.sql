@@ -5,3 +5,9 @@ VALUES
 	('another user','Kanwar','Mehra'),
 	('someone','Dion','Mendes'),
 	('someone else','Praful','Hedau');
+
+INSERT INTO SONGS
+	(TITLE,LENGTH)
+VALUES
+	('SONG 1','10'),
+	('SONG 2','20');
